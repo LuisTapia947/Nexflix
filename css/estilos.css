@@ -1,0 +1,35 @@
+body {
+    background-color: black;
+}
+
+.flexContenedor {
+    display: flex;
+    /* /* background-color: aqua; */
+}
+
+.divIzquierdo {
+    display: flex;
+    width: 50%;
+    /* background-color: blue; */
+    align-items: center;
+}
+
+.divDerecho {
+display: flex;
+    width: 50%;
+    /* background-color: blueviolet; */
+justify-content: end;
+margin-right: 40px;
+align-items: end;
+}
+
+nav >a,.divDerecho>a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    margin-right:  20px;;
+    
+}
+
+
+
